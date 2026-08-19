@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f7fb;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Hero */
+
+.hero {
+    background: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.welcome {
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.hero h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Button */
+
+button {
+    background: white;
+    color: #0066cc;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Sections */
+
+section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 25px;
+    text-align: center;
+}
+
+section h2 {
+    color: #0066cc;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Skills */
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.skills span {
+    background: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+/* Projects */
+
+.project {
+    background: white;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.project h3 {
+    color: #0066cc;
+}
+
+/* Footer */
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 60px;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero h2 {
+        font-size: 20px;
+    }
+
+    section h2 {
+        font-size: 28px;
+    }
+
+.social-links {
+    margin-top: 25px;
+}
+
+.social-links a {
+    display: inline-block;
+    background: #0066cc;
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+    margin: 5px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    opacity: 0.8;
+}
